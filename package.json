@@ -1,0 +1,27 @@
+{
+  "name": "janericlenssen.github.io",
+  "version": "1.0.0",
+  "description": "Jan Eric Lenssen personal page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janericlenssen/janericlenssen.github.io.git"
+  },
+  "author": "Jan Eric Lenssen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janericlenssen/janericlenssen.github.io/issues"
+  },
+  "homepage": "https://github.com/janericlenssen/janericlenssen.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "@grimlink/eleventy-plugin-sass": "^1.0.3",
+    "nunjucks": "^3.2.3",
+    "sass": "^1.53.0"
+  }
+}
