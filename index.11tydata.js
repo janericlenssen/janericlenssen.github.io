@@ -8,7 +8,7 @@ module.exports = {
     publications: [
         {
             title: "Pose-NDF: Modeling Human Pose Manifolds with Neural Distance Fields",
-            //teaser: "figures/zhou22toch.gif",
+            teaser: "figures/posendf.png",
             authors: "Garvita Tiwari, Dimitrije Antic, Jan Eric Lenssen, Nikolaos Sarafianos, Tony Tung, Gerard Pons-Moll",
             conference: "ECCV 2022",
             //data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/toch/"), "[Paper]".link("https://arxiv.org/pdf/2205.07982.pdf")].join(" "),
