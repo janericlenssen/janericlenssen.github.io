@@ -12,7 +12,7 @@ module.exports = {
             authors: "Garvita Tiwari, Dimitrije Antic, Jan Eric Lenssen, Nikolaos Sarafianos, Tony Tung, Gerard Pons-Moll",
             conference: "ECCV 2022",
             //data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/toch/"), "[Paper]".link("https://arxiv.org/pdf/2205.07982.pdf")].join(" "),
-            abstract: "A unsigned neural distance field that models the manifold of plausible human poses in high-dimensional SO(3). Given human poses can be projected onto the manifold by SO(3) gradient descent.",
+            abstract: "An unsigned neural distance field that models the manifold of plausible human poses in high-dimensional SO(3). Given human poses can be projected onto the manifold by SO(3) gradient descent.",
         },
         {
             title: "TOCH: Spatio-Temporal Object Correspondence to Hand for Motion Refinement",
