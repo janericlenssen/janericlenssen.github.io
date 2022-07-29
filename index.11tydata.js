@@ -11,7 +11,7 @@ module.exports = {
             teaser: "figures/posendf.png",
             authors: "Garvita Tiwari, Dimitrije Antic, Jan Eric Lenssen, Nikolaos Sarafianos, Tony Tung, Gerard Pons-Moll",
             conference: "ECCV 2022 (Oral presentation)",
-            //data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/toch/"), "[Paper]".link("https://arxiv.org/pdf/2205.07982.pdf")].join(" "),
+            data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/posendf/"), "[Paper]".link("https://arxiv.org/pdf/2207.13807.pdf"), "[Code]".link("https://github.com/garvita-tiwari/PoseNDF"].join(" "),
             abstract: "An unsigned neural distance field that models the manifold of plausible human poses in high-dimensional SO(3). Given human poses can be projected onto the manifold by SO(3) gradient descent.",
         },
         {
@@ -68,7 +68,7 @@ module.exports = {
             authors: "Christopher Morris, Martin Ritzert, Matthias Fey, William Hamilton, Jan E. Lenssen, Gaurav Rattan, Martin Grohe",
             conference: "AAAI 2019",
             data: ["[Paper]".link("https://arxiv.org/pdf/1810.02244.pdf"), "[Code]".link("https://github.com/chrsmrrs/k-gnn")].join(" "),
-            abstract: "Shows equivalence in expressiveness of specific graph neural networks and the Weisfeiler-Leman graph isomorphy test. Introduces higher order GNNs to with provably more expressiveness.",
+            abstract: "Shows equivalence in expressiveness of specific graph neural networks and the Weisfeiler-Leman graph isomorphy test. Introduces higher order GNNs with provably more expressiveness.",
         },
         {
             title: "Fast Graph Representation Learning with PyTorch Geometric",
