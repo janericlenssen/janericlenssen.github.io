@@ -19,7 +19,7 @@ module.exports = {
             teaser: "figures/zhou22toch.gif",
             authors: "Keyang Zhou, Bharat Lal Bathnagar, Jan Eric Lenssen, Gerard Pons-Moll",
             conference: "ECCV 2022",
-            data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/toch/"), "[Paper]".link("https://arxiv.org/pdf/2205.07982.pdf")].join(" "),
+            data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/toch/"), "[Paper]".link("https://arxiv.org/pdf/2205.07982.pdf"), "[Code]".link("https://github.com/kzhou23/toch")].join(" "),
             abstract: "A spatio-temporal representation of point-wise correspondences between a parameterized hand template mesh and an object mesh, which allows for refining captured grasping motions.",
         },
         {
