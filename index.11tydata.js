@@ -15,7 +15,7 @@ module.exports = {
             abstract: "An unsigned neural distance field that models the manifold of plausible human poses in high-dimensional SO(3). Given human poses can be projected onto the manifold by SO(3) gradient descent.",
         },
         {
-            title: "TOCH: Spatio-Temporal Object Correspondence to Hand for Motion Refinement",
+            title: "TOCH: Spatio-Temporal Object-to-Hand Correspondence for Motion Refinement",
             teaser: "figures/zhou22toch.gif",
             authors: "Keyang Zhou, Bharat Lal Bathnagar, Jan Eric Lenssen, Gerard Pons-Moll",
             conference: "ECCV 2022",
