@@ -46,14 +46,14 @@ td {
 }
 
 .bio {
-  padding-right: 2.5%;
+  padding-right: 0.5%;
   width: 83%;
   vertical-align: top;
 }
 
 .photo {
-  padding-left: 2.5%;
-  width: 15%;
+  padding-left: 0.5%;
+  width: 17%;
   max-width: 25%;
 }
 
