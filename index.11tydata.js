@@ -14,7 +14,7 @@ module.exports = {
             authors: "Das, Devikalyan and Wewer, Christopher and Yunus, Raza and Ilg, Eddy and Lenssen, Jan Eric",
             conference: "CVPR 2024",
             data: ["[Paper]".link("https://arxiv.org/pdf/2312.01196.pdf")].join(" "),
-            abstract: "A two-stage approach for non-rigid reconstruction from monocular videos. A coarse point template is found first to act as regularization for local 3D Gaussians.",
+            abstract: "A two-stage approach for non-rigid reconstruction from monocular videos. A coarse point template is found first to act as regularization for a local 3D Gaussians representation.",
         },
         {
             title: "NRDF: Neural Riemannian Distance Fields for Learning Articulated Pose Priors",
@@ -30,7 +30,7 @@ module.exports = {
             authors: "Xie, Xianghui and Bhatnagar, Bharat and Lenssen, Jan Eric and Pons-Moll, Gerard",
             conference: "CVPR 2024",
             data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/"),"[Paper]".link("https://arxiv.org/pdf/2312.07063.pdf")].join(" "),
-            abstract: "A hierarchical diffusion model for human-object interaction reconstruction from single image, trained on ProciGen, an automatically created synthetic dataset.",
+            abstract: "A hierarchical diffusion model for human-object interaction reconstruction from single image, trained on ProciGen, a large-scale, automatically created, synthetic dataset.",
         },
         {
             title: "Neural Point Cloud Diffusion for Disentangled 3D Shape and Appearance Generation",
