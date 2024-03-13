@@ -48,7 +48,7 @@
                   </td>
                   <td>
                     <span class="pub-title">{{ pub.title }}</span><br/>
-                    {{ pub.conference }}<br/>
+                    {{ pub.conference }} <span class="pub-bold"> {{pub.pubnote}} </span><br/>
                     <span>{{ pub.authors | safe }}<br/>
                     <span class="pub-bold"> Short Abstract: </span>{{ pub.abstract | safe }}<br/>
                     {{ pub.data | safe }}<br/>
