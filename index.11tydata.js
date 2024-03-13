@@ -11,7 +11,7 @@ module.exports = {
         {
             title: "Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction",
             teaser: "figures/npg.png",
-            authors: "Das, Devikalyan and Wewer, Christopher and Yunus, Raza and Ilg, Eddy and Lenssen, Jan Eric",
+            authors: "Devikalyan Das, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen",
             conference: "CVPR 2024",
             data: ["[Paper]".link("https://arxiv.org/pdf/2312.01196.pdf")].join(" "),
             abstract: "A two-stage approach for non-rigid reconstruction from monocular videos. A coarse point template is found first to act as regularization for a local 3D Gaussians representation.",
@@ -19,7 +19,7 @@ module.exports = {
         {
             title: "NRDF: Neural Riemannian Distance Fields for Learning Articulated Pose Priors",
             teaser: "figures/nrdf.png",
-            authors: "He, Yannan and Tiwari, Garvita and Birdal, Tolga and Lenssen, Jan Eric and Pons-Moll, Gerard",
+            authors: "Yannan He, Garvita Tiwari, Tolga Birdal, Jan Eric Lenssen, Gerard Pons-Moll",
             conference: "CVPR 2024",
             data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/nrdf/"),"[Paper]".link("https://arxiv.org/pdf/2403.03122.pdf")].join(" "),
             abstract: "A method to learn data priors for articulated poses (humans, hands, animals) using a Riemannian distance field formulation and Riemmanian gradient descent.",
@@ -27,7 +27,7 @@ module.exports = {
         {
             title: "Template Free Reconstruction of Human-object Interaction with Procedural Interaction Generation",
             teaser: "figures/procigen.gif",
-            authors: "Xie, Xianghui and Bhatnagar, Bharat and Lenssen, Jan Eric and Pons-Moll, Gerard",
+            authors: "Xianghui Xie, Bharat Bhatnagar, Jan Eric Lenssen, Gerard Pons-Moll",
             conference: "CVPR 2024",
             data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/procigen-hdm/"),"[Paper]".link("https://arxiv.org/pdf/2312.07063.pdf")].join(" "),
             abstract: "A hierarchical diffusion model for human-object interaction reconstruction from single image, trained on ProciGen, a large-scale, automatically created, synthetic dataset.",
@@ -35,7 +35,7 @@ module.exports = {
         {
             title: "Neural Point Cloud Diffusion for Disentangled 3D Shape and Appearance Generation",
             teaser: "figures/npcd.png",
-            authors: "Schröppel, Philipp and Wewer, Christopher and Lenssen, Jan Eric and Ilg, Eddy and Brox, Thomas",
+            authors: "Philipp Schröppel, Christopher Wewer, Jan Eric Lenssen, Eddy Ilg, Thomas Brox",
             conference: "CVPR 2024",
             data: ["[Paper]".link("https://arxiv.org/pdf/2312.14124.pdf")].join(" "),
             abstract: "A denoising diffusion method on point clouds with features defining a radiance field. The disentangled representation allows for individual generation of shape and appearance.",
@@ -43,7 +43,7 @@ module.exports = {
         {
             title: "GEARS: Local Geometry-aware Hand-object Interaction Synthesis",
             teaser: "figures/gears.png",
-            authors: "Zhou, Keyang and Bhatnagar, Bharat and Lenssen, Jan Eric and Pons-Moll, Gerard",
+            authors: "Keyang Zhou, Bharat Bhatnagar, Jan Eric Lenssen, Gerard Pons-Moll",
             conference: "CVPR 2024",
             //data: ["[Paper]".link("https://arxiv.org/abs/2309.03809")].join(" "),
             abstract: "A method to generate realistic grasping sequences of hands, given wrist trajectory and object. We use local sensors on hand joints to obtain features independent of global object information.",
@@ -51,7 +51,7 @@ module.exports = {
         {
             title: "Recent Trends in 3D Reconstruction of General Non-Rigid Scenes",
             teaser: "figures/eurographics2024.png",
-            authors: "Yunus, Raza and Lenssen, Jan Eric and Niemeyer, Michael and Liao, Yiyi and Rupprecht, Christian and Theobalt, Christian and Pons-Moll, Gerard and Huang, Jia-Bin and Golyanik, Vladislav and Ilg, Eddy",
+            authors: "Raza Yunus,  Jan Eric Lenssen, Michael Niemeyer, Yiyi Liao, Christian Rupprecht, Christian Theobalt, Gerard Pons-Moll, Jia-Bin Huang, Vladislav Golyanik, Eddy Ilg",
             conference: "Eurographis State of the Art Reports 2024",
             //data: ["[Paper]".link("https://arxiv.org/abs/2309.03809")].join(" "),
             abstract: "A state of the art report for 3D reconstruction of general non-rigid scenes, covering 3D and 4D representations, deformation models, generalizable reconstruction, automatic decomposition and editing.",
@@ -59,7 +59,7 @@ module.exports = {
         {
             title: "Relational Deep Learning: Graph Representation Learning on Relational Databases",
             teaser: "figures/rdl.png",
-            authors: "Fey, Matthias and Hu, Weihua and Huang, Kexin and Lenssen, Jan Eric and Ranjan, Rishabh and Robinson, Joshua and Ying, Rex and You, Jiaxuan and  Leskovec, Jure",
+            authors: "Matthias Fey, Weihua Hu, Kexin Huang, Jan Eric Lenssen, Rishabh Ranjan, Joshua Robinson, Rex Ying, Jiaxuan You, Jure Leskovec",
             conference: "arXiv preprint arXiv:2312.04615",
             data: ["[Project Page]".link("https://relbench.stanford.edu/"),"[Paper]".link("https://arxiv.org/pdf/2312.04615.pdf")].join(" "),
             abstract: "A position paper introducing the concept of relational deep learning, an end-to-end framework to learn directly on relational databases using graph neural networks.",
