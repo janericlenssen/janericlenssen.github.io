@@ -69,7 +69,7 @@ module.exports = {
             teaser: "figures/simnp.png",
             authors: "Christopher Wewer, Eddy Ilg, Bernt Schiele, Jan Eric Lenssen",
             conference: "ICCV 2023",
-            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/simnp/", "[Paper]".link("https://arxiv.org/abs/2309.03809")].join(" "),
+            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/simnp/"), "[Paper]".link("https://arxiv.org/abs/2309.03809")].join(" "),
             abstract: "A renderable neural point radiance field that learns category-level self-similarities from data by connecting coherent neural points to embeddings via optimized bipartite attention scores.",
         },
         {
