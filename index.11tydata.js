@@ -9,11 +9,19 @@
 module.exports = {
     publications: [
         {
+            title: "latentSplat: Autoencoding Variational Gaussians for Fast Generalizable 3D Reconstruction",
+            teaser: "figures/npg.png",
+            authors: "Christopher Wewer, Kevin Raj, Eddy Ilg, Bernt Schiele, Jan Eric Lenssen",
+            conference: "arXiv preprint arXiv:2403.16292",
+            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/latentsplat/"),"[Paper]".link("https://arxiv.org/pdf/2403.16292.pdf")].join(" "),
+            abstract: "An fast autoencoder that encodes image pairs into 3D variational feature Gaussians that model uncertainty individually for different locations in 3D space.",
+        },
+        {
             title: "Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction",
             teaser: "figures/npg.png",
             authors: "Devikalyan Das, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen",
             conference: "CVPR 2024",
-            data: ["[Paper]".link("https://arxiv.org/pdf/2312.01196.pdf")].join(" "),
+            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/npg/"),"[Paper]".link("https://arxiv.org/pdf/2312.01196.pdf")].join(" "),
             abstract: "A two-stage approach for non-rigid reconstruction from monocular videos. A coarse point template is found first to act as regularization for a local 3D Gaussians representation.",
         },
         {
