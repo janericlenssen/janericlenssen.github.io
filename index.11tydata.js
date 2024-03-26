@@ -14,7 +14,7 @@ module.exports = {
             authors: "Christopher Wewer, Kevin Raj, Eddy Ilg, Bernt Schiele, Jan Eric Lenssen",
             conference: "arXiv preprint arXiv:2403.16292",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/latentsplat/"),"[Paper]".link("https://arxiv.org/pdf/2403.16292.pdf")].join(" "),
-            abstract: "An fast autoencoder that encodes image pairs into 3D variational feature Gaussians that model uncertainty individually for different locations in 3D space.",
+            abstract: "A fast autoencoder that encodes image pairs into 3D variational feature Gaussians that model uncertainty individually for different locations in 3D space. Trained purely on videos.",
         },
         {
             title: "Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction",
