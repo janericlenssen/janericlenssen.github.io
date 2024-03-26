@@ -10,7 +10,7 @@ module.exports = {
     publications: [
         {
             title: "latentSplat: Autoencoding Variational Gaussians for Fast Generalizable 3D Reconstruction",
-            teaser: "figures/npg.png",
+            teaser: "figures/latentsplat.gif",
             authors: "Christopher Wewer, Kevin Raj, Eddy Ilg, Bernt Schiele, Jan Eric Lenssen",
             conference: "arXiv preprint arXiv:2403.16292",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/latentsplat/"),"[Paper]".link("https://arxiv.org/pdf/2403.16292.pdf")].join(" "),
@@ -18,7 +18,7 @@ module.exports = {
         },
         {
             title: "Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction",
-            teaser: "figures/npg.png",
+            teaser: "figures/npg_teaser.gif",
             authors: "Devikalyan Das, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen",
             conference: "CVPR 2024",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/npg/"),"[Paper]".link("https://arxiv.org/pdf/2312.01196.pdf")].join(" "),
