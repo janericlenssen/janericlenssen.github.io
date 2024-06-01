@@ -53,7 +53,7 @@ module.exports = {
             teaser: "figures/gears.png",
             authors: "Keyang Zhou, Bharat Bhatnagar, Jan Eric Lenssen, Gerard Pons-Moll",
             conference: "CVPR 2024",
-            //data: ["[Paper]".link("https://arxiv.org/abs/2309.03809")].join(" "),
+            data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/gears/"),"[Paper]".link("https://virtualhumans.mpi-inf.mpg.de/papers/zhou24gears/gears.pdf")].join(" "),
             abstract: "A method to generate realistic grasping sequences of hands, given wrist trajectory and object. We use local sensors on hand joints to obtain features independent of global object information.",
         },
         {
@@ -68,7 +68,7 @@ module.exports = {
             title: "Relational Deep Learning: Graph Representation Learning on Relational Databases",
             teaser: "figures/rdl.png",
             authors: "Matthias Fey, Weihua Hu, Kexin Huang, Jan Eric Lenssen, Rishabh Ranjan, Joshua Robinson, Rex Ying, Jiaxuan You, Jure Leskovec",
-            conference: "arXiv preprint arXiv:2312.04615",
+            conference: "ICML 2024 Position Papers",
             data: ["[Project Page]".link("https://relbench.stanford.edu/"),"[Paper]".link("https://arxiv.org/pdf/2312.04615.pdf")].join(" "),
             abstract: "A position paper introducing the concept of relational deep learning, an end-to-end framework to learn directly on relational databases using graph neural networks.",
         },
