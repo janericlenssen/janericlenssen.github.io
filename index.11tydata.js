@@ -61,7 +61,7 @@ module.exports = {
             teaser: "figures/eurographics2024.png",
             authors: "Raza Yunus,  Jan Eric Lenssen, Michael Niemeyer, Yiyi Liao, Christian Rupprecht, Christian Theobalt, Gerard Pons-Moll, Jia-Bin Huang, Vladislav Golyanik, Eddy Ilg",
             conference: "Eurographis State of the Art Reports 2024",
-            //data: ["[Paper]".link("https://arxiv.org/abs/2309.03809")].join(" "),
+            data: ["[Project Page]".link("https://razayunus.github.io/non-rigid-star"),"[Paper]".link("https://arxiv.org/abs/2403.15064")].join(" "),
             abstract: "A state of the art report for 3D reconstruction of general non-rigid scenes, covering 3D and 4D representations, deformation models, generalizable reconstruction, automatic decomposition and editing.",
         },
         {
