@@ -57,20 +57,20 @@ module.exports = {
             abstract: "A method to generate realistic grasping sequences of hands, given wrist trajectory and object. We use local sensors on hand joints to obtain features independent of global object information.",
         },
         {
-            title: "Recent Trends in 3D Reconstruction of General Non-Rigid Scenes",
-            teaser: "figures/eurographics2024.png",
-            authors: "Raza Yunus,  Jan Eric Lenssen, Michael Niemeyer, Yiyi Liao, Christian Rupprecht, Christian Theobalt, Gerard Pons-Moll, Jia-Bin Huang, Vladislav Golyanik, Eddy Ilg",
-            conference: "Eurographis State of the Art Reports 2024",
-            data: ["[Project Page]".link("https://razayunus.github.io/non-rigid-star"),"[Paper]".link("https://arxiv.org/abs/2403.15064")].join(" "),
-            abstract: "A state of the art report for 3D reconstruction of general non-rigid scenes, covering 3D and 4D representations, deformation models, generalizable reconstruction, automatic decomposition and editing.",
-        },
-        {
             title: "Relational Deep Learning: Graph Representation Learning on Relational Databases",
             teaser: "figures/rdl.png",
             authors: "Matthias Fey, Weihua Hu, Kexin Huang, Jan Eric Lenssen, Rishabh Ranjan, Joshua Robinson, Rex Ying, Jiaxuan You, Jure Leskovec",
             conference: "ICML 2024 Position Papers",
             data: ["[Project Page]".link("https://relbench.stanford.edu/"),"[Paper]".link("https://arxiv.org/pdf/2312.04615.pdf")].join(" "),
             abstract: "A position paper introducing the concept of relational deep learning, an end-to-end framework to learn directly on relational databases using graph neural networks.",
+        },
+        {
+            title: "Recent Trends in 3D Reconstruction of General Non-Rigid Scenes",
+            teaser: "figures/eurographics2024.png",
+            authors: "Raza Yunus,  Jan Eric Lenssen, Michael Niemeyer, Yiyi Liao, Christian Rupprecht, Christian Theobalt, Gerard Pons-Moll, Jia-Bin Huang, Vladislav Golyanik, Eddy Ilg",
+            conference: "Eurographis State of the Art Reports 2024",
+            data: ["[Project Page]".link("https://razayunus.github.io/non-rigid-star"),"[Paper]".link("https://arxiv.org/abs/2403.15064")].join(" "),
+            abstract: "A state of the art report for 3D reconstruction of general non-rigid scenes, covering 3D and 4D representations, deformation models, generalizable reconstruction, automatic decomposition and editing.",
         },
         {
             title: "SimNP: Learning Self-Similarity Priors between Neural Points",
