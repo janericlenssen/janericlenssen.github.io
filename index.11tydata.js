@@ -25,7 +25,7 @@ module.exports = {
             abstract: "A fast autoencoder that encodes image pairs into 3D variational feature Gaussians that model uncertainty individually for different locations in 3D space. Trained purely on videos.",
         },
         {
-            title: "RelBench: Relational Deep Learning Benchmark",
+            title: "RelBench: A Benchmark for Deep Learning on Relational Databases",
             teaser: "figures/relbench.png",
             authors: "Joshua Robinson, Rishabh Ranjan, Weihua Hu, Kexin Huang, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan Eric Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec",
             conference: "arXiv preprint",
