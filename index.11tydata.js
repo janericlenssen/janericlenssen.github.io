@@ -9,12 +9,28 @@
 module.exports = {
     publications: [
         {
+            title: "Improving 2D Feature Representations by 3D-Aware Fine-Tuning",
+            teaser: "figures/fit3d.gif",
+            authors: "Yuanwen Yue, Anurag Das, Francis Engelmann, Siyu Tang, Jan Eric Lenssen",
+            conference: "ECCV 2024 (accepted for publication)",
+            data: ["[Project Page]".link("https://ywyue.github.io/FiT3D/"),"[Paper]".link("https://arxiv.org/pdf/2407.20229")].join(" "),
+            abstract: "We show that finetuning 2D foundation models with descriptors that have been fused into a 3D Gaussian representation improves feature quality for downstream tasks.",
+        },
+        {
             title: "latentSplat: Autoencoding Variational Gaussians for Fast Generalizable 3D Reconstruction",
             teaser: "figures/latentsplat.gif",
             authors: "Christopher Wewer, Kevin Raj, Eddy Ilg, Bernt Schiele, Jan Eric Lenssen",
             conference: "ECCV 2024 (accepted for publication)",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/latentsplat/"),"[Paper]".link("https://arxiv.org/pdf/2403.16292.pdf")].join(" "),
             abstract: "A fast autoencoder that encodes image pairs into 3D variational feature Gaussians that model uncertainty individually for different locations in 3D space. Trained purely on videos.",
+        },
+        {
+            title: "RelBench: Relational Deep Learning Benchmark",
+            teaser: "figures/relbench.png",
+            authors: "Joshua Robinson, Rishabh Ranjan, Weihua Hu, Kexin Huang, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan Eric Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec",
+            conference: "arXiv preprint",
+            data: ["[Project Page]".link("https://relbench.stanford.edu/"),"[Paper]".link("https://arxiv.org/pdf/2407.20060")].join(" "),
+            abstract: "An open benchmark for machine learning on relational databases. Contains a collection of realistic, large-scale, and diverse benchmark datasets, a leaderboard and unified evaluation.",
         },
         {
             title: "Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction",
