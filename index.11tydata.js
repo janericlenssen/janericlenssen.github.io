@@ -9,10 +9,18 @@
 module.exports = {
     publications: [
         {
+            title: "TokenFormer: Rethinking Transformer Scaling with Tokenized Model Parameters",
+            teaser: "figures/tokenformer.png",
+            authors: "Haiyang Wang, Yue Fan, Muhammad Ferjad Naeem, Yongqin Xian, Jan Eric Lenssen, Liwei Wang, Federico Tombari, Bernt Schiele",
+            conference: "arXiv preprint",
+            data: ["[Project Page]".link("https://github.com/Haiyang-W/TokenFormer"),"[Paper]".link("https://arxiv.org/pdf/2410.23168")].join(" "),
+            abstract: "An alternative to the transformer architecture. Views trainable parameters as tokens to allow for incremental model scaling, leading to more efficient training.",
+        },
+        {
             title: "Spurfies: Sparse Surface Reconstruction using Local Geometry Priors",
             teaser: "figures/spurfies.png",
             authors: "Kevin Raj, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen",
-            conference: "arXiv preprint",
+            conference: "3DV 2025 (accepted)",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/spurfies/"),"[Paper]".link("https://arxiv.org/pdf/2408.16544")].join(" "),
             abstract: "A method leveraging synthetic data to learn local surface priors for surface reconstruction from few images. Can be applied to both bounded and unbounded scenes.",
         },
@@ -20,9 +28,33 @@ module.exports = {
             title: "InterTrack: Tracking Human Object Interaction without Object Templates",
             teaser: "figures/intertrack.gif",
             authors: "Xianghui Xie, Jan Eric Lenssen, Gerard Pons-Moll",
-            conference: "arXiv preprint",
+            conference: "3DV 2025 (accepted)",
             data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/InterTrack/"),"[Paper]".link("https://arxiv.org/pdf/2408.13953")].join(" "),
             abstract: "A tracker for dynamic humans and objects under occlusion from a monocular RGB video without object templates. Trained on synthetic data and generalizing to in-the-wild videos.",
+        },
+        {
+            title: "Scribbles for All: Benchmarking Scribble Supervised Segmentation Across Datasets",
+            teaser: "figures/scribbles4all.png",
+            authors: "Wolfgang Boettcher, Lukas Hoyer, Ozan Unal, Jan Eric Lenssen, Bernt Schiele",
+            conference: "NeurIPS 2024 - Datasets and Benchmarks",
+            data: ["[Project Page]".link("https://wbkit.github.io/Scribbles4All/"),"[Paper]".link("https://www.arxiv.org/pdf/2408.12489")].join(" "),
+            abstract: "A set of scribble-labeled semantic segmentation datasets and an algorithm to automatically obtain such labels for a densely labeled dataset.",
+        },
+        {
+            title: "RelBench: A Benchmark for Deep Learning on Relational Databases",
+            teaser: "figures/relbench.png",
+            authors: "Joshua Robinson, Rishabh Ranjan, Weihua Hu, Kexin Huang, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan Eric Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec",
+            conference: "NeurIPS 2024 - Datasets and Benchmarks",
+            data: ["[Project Page]".link("https://relbench.stanford.edu/"),"[Paper]".link("https://arxiv.org/pdf/2407.20060")].join(" "),
+            abstract: "An open benchmark for machine learning on relational databases. Contains a collection of realistic, large-scale, and diverse benchmark datasets, a leaderboard and unified evaluation.",
+        },
+        {
+            title: "From Similarity to Superiority: Channel Clustering for Time Series Forecasting",
+            teaser: "figures/timeseries.png",
+            authors: "Jialin Chen, Jan Eric Lenssen, Aosong Feng, Weihua Hu, Matthias Fey, Leandros Tassiulas, Jure Leskovec, Rex Ying",
+            conference: "NeurIPS 2024",
+            data: ["[Paper]".link("https://arxiv.org/pdf/2404.01340")].join(" "),
+            abstract: "A channel clustering strategy for multivariate time series forecasting that allows to weight different expert models for different time series channels.",
         },
         {
             title: "Improving 2D Feature Representations by 3D-Aware Fine-Tuning",
@@ -39,14 +71,6 @@ module.exports = {
             conference: "ECCV 2024",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/latentsplat/"),"[Paper]".link("https://arxiv.org/pdf/2403.16292.pdf")].join(" "),
             abstract: "A fast autoencoder that encodes image pairs into 3D variational feature Gaussians that model uncertainty individually for different locations in 3D space. Trained purely on videos.",
-        },
-        {
-            title: "RelBench: A Benchmark for Deep Learning on Relational Databases",
-            teaser: "figures/relbench.png",
-            authors: "Joshua Robinson, Rishabh Ranjan, Weihua Hu, Kexin Huang, Jiaqi Han, Alejandro Dobles, Matthias Fey, Jan Eric Lenssen, Yiwen Yuan, Zecheng Zhang, Xinwei He, Jure Leskovec",
-            conference: "NeurIPS 2024 - Datasets and Benchmarks",
-            data: ["[Project Page]".link("https://relbench.stanford.edu/"),"[Paper]".link("https://arxiv.org/pdf/2407.20060")].join(" "),
-            abstract: "An open benchmark for machine learning on relational databases. Contains a collection of realistic, large-scale, and diverse benchmark datasets, a leaderboard and unified evaluation.",
         },
         {
             title: "Neural Parametric Gaussians for Monocular Non-Rigid Object Reconstruction",
@@ -79,7 +103,7 @@ module.exports = {
             teaser: "figures/npcd.png",
             authors: "Philipp Schröppel, Christopher Wewer, Jan Eric Lenssen, Eddy Ilg, Thomas Brox",
             conference: "CVPR 2024",
-            data: ["[Paper]".link("https://arxiv.org/pdf/2312.14124.pdf")].join(" "),
+            data: ["[Project Page]".link("https://neural-point-cloud-diffusion.github.io/"), "[Paper]".link("https://arxiv.org/pdf/2312.14124.pdf")].join(" "),
             abstract: "A denoising diffusion method on point clouds with features defining a radiance field. The disentangled representation allows for individual generation of shape and appearance.",
         },
         {
