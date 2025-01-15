@@ -9,6 +9,14 @@
 module.exports = {
     publications: [
         {
+            title: "MEt3R: Measuring Multi-View Consistency in Generated Images",
+            teaser: "figures/met3r.gif",
+            authors: "Mohammad Asim, Christopher Wewer, Thomas Wimmer, Bernt Schiele, Jan Eric Lenssen",
+            conference: "arXiv preprint",
+            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/met3r/"),"[Paper]".link("http://arxiv.org/abs/2501.06336")].join(" "),
+            abstract: "A metric that measures 3D consistency between two generated images without requiring camera poses. It uses DUSt3R to perform reconstruction and compares projected DINO features.",
+        },
+        {
             title: "TokenFormer: Rethinking Transformer Scaling with Tokenized Model Parameters",
             teaser: "figures/tokenformer.png",
             authors: "Haiyang Wang, Yue Fan, Muhammad Ferjad Naeem, Yongqin Xian, Jan Eric Lenssen, Liwei Wang, Federico Tombari, Bernt Schiele",
@@ -20,7 +28,8 @@ module.exports = {
             title: "Spurfies: Sparse Surface Reconstruction using Local Geometry Priors",
             teaser: "figures/spurfies.png",
             authors: "Kevin Raj, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen",
-            conference: "3DV 2025 (accepted)",
+            conference: "3DV 2025",
+            pubnote: "(Oral Presentation)",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/spurfies/"),"[Paper]".link("https://arxiv.org/pdf/2408.16544")].join(" "),
             abstract: "A method leveraging synthetic data to learn local surface priors for surface reconstruction from few images. Can be applied to both bounded and unbounded scenes.",
         },
@@ -28,7 +37,7 @@ module.exports = {
             title: "InterTrack: Tracking Human Object Interaction without Object Templates",
             teaser: "figures/intertrack.gif",
             authors: "Xianghui Xie, Jan Eric Lenssen, Gerard Pons-Moll",
-            conference: "3DV 2025 (accepted)",
+            conference: "3DV 2025",
             data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/InterTrack/"),"[Paper]".link("https://arxiv.org/pdf/2408.13953")].join(" "),
             abstract: "A tracker for dynamic humans and objects under occlusion from a monocular RGB video without object templates. Trained on synthetic data and generalizing to in-the-wild videos.",
         },
