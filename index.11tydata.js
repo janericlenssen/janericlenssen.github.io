@@ -20,9 +20,17 @@ module.exports = {
             title: "TokenFormer: Rethinking Transformer Scaling with Tokenized Model Parameters",
             teaser: "figures/tokenformer.png",
             authors: "Haiyang Wang, Yue Fan, Muhammad Ferjad Naeem, Yongqin Xian, Jan Eric Lenssen, Liwei Wang, Federico Tombari, Bernt Schiele",
-            conference: "arXiv preprint",
+            conference: "ICLR 2025",
             data: ["[Project Page]".link("https://github.com/Haiyang-W/TokenFormer"),"[Paper]".link("https://arxiv.org/pdf/2410.23168")].join(" "),
             abstract: "An alternative to the transformer architecture. Views trainable parameters as tokens to allow for incremental model scaling, leading to more efficient training.",
+        },
+        {
+            title: "ContextGNN: Beyond Two-Tower Recommendation Systems",
+            teaser: "figures/contextgnn.png",
+            authors: "Yiwen Yuan, Zecheng Zhang, Xinwei He, Akihiro Nitta, Weihua Hu, Dong Wang, Manan Shah, Shenyang Huang, Blaz Stojanovic, Alan Krumholz, Jan Eric Lenssen, Jure Leskovec, Matthias Fey",
+            conference: "ICLR 2025",
+            data: ["[Project Page]".link("https://github.com/kumo-ai/ContextGNN"),"[Paper]".link("https://arxiv.org/abs/2411.19513")].join(" "),
+            abstract: "A hybrid recommendation system based on graph neural networks that combines the strengths of two-tower and pair-wise representations to allow exploration and repetition.",
         },
         {
             title: "Spurfies: Sparse Surface Reconstruction using Local Geometry Priors",
