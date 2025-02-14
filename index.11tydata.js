@@ -21,6 +21,7 @@ module.exports = {
             teaser: "figures/tokenformer.png",
             authors: "Haiyang Wang, Yue Fan, Muhammad Ferjad Naeem, Yongqin Xian, Jan Eric Lenssen, Liwei Wang, Federico Tombari, Bernt Schiele",
             conference: "ICLR 2025",
+            pubnote: "(Spotlight)",
             data: ["[Project Page]".link("https://github.com/Haiyang-W/TokenFormer"),"[Paper]".link("https://arxiv.org/pdf/2410.23168")].join(" "),
             abstract: "An alternative to the transformer architecture. Views trainable parameters as tokens to allow for incremental model scaling, leading to more efficient training.",
         },
