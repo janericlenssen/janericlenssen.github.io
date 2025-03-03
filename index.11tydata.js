@@ -9,12 +9,28 @@
 module.exports = {
     publications: [
         {
+            title: "Spatial Reasoning with Denoising Models",
+            teaser: "figures/SRM.gif",
+            authors: "Christopher Wewer, Bart Pogodzinski, Bernt Schiele, Jan Eric Lenssen",
+            conference: "arXiv preprint",
+            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/srm/"),"[Paper]".link("https://arxiv.org/abs/2502.21075")].join(" "),
+            abstract: "A framework to propagate belief over a set of continuous variables (e.g. image patches) with generative denoising models. Allows to explore the amount of (soft) sequentialization and the order of generation.",
+        },
+        {
             title: "MEt3R: Measuring Multi-View Consistency in Generated Images",
             teaser: "figures/met3r.gif",
             authors: "Mohammad Asim, Christopher Wewer, Thomas Wimmer, Bernt Schiele, Jan Eric Lenssen",
-            conference: "arXiv preprint",
+            conference: "CVPR 2025",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/met3r/"),"[Paper]".link("http://arxiv.org/abs/2501.06336")].join(" "),
             abstract: "A metric that measures 3D consistency between two generated images without requiring camera poses. It uses DUSt3R to perform reconstruction and compares projected DINO features.",
+        },
+        {
+            title: "PersonaHOI: Effortlessly Improving Face Personalization in Human-Object Interaction Generation",
+            teaser: "figures/personahoi.png",
+            authors: "Xinting Hu, Haoran Wang, Jan Eric Lenssen, Bernt Schiele",
+            conference: "CVPR 2025",
+            data: ["[Paper]".link("https://arxiv.org/pdf/2501.05823")].join(" "),
+            abstract: "A method for training-free face personalization in image generation tailored for human-object interaction scenarios.",
         },
         {
             title: "TokenFormer: Rethinking Transformer Scaling with Tokenized Model Parameters",
