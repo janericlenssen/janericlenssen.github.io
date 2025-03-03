@@ -14,7 +14,7 @@ module.exports = {
             authors: "Christopher Wewer, Bart Pogodzinski, Bernt Schiele, Jan Eric Lenssen",
             conference: "arXiv preprint",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/srm/"),"[Paper]".link("https://arxiv.org/abs/2502.21075")].join(" "),
-            abstract: "A framework to propagate belief over a set of continuous variables (e.g. image patches) with generative denoising models. Allows to explore the amount of (soft) sequentialization and the order of generation.",
+            abstract: "A framework to propagate belief over a set of continuous variables (e.g. image patches) with generative denoising models. Explores the amount of sequentialization and generation order.",
         },
         {
             title: "MEt3R: Measuring Multi-View Consistency in Generated Images",
