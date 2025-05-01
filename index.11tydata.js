@@ -54,7 +54,7 @@ module.exports = {
             teaser: "figures/spurfies.png",
             authors: "Kevin Raj, Christopher Wewer, Raza Yunus, Eddy Ilg, Jan Eric Lenssen",
             conference: "3DV 2025",
-            pubnote: "(Oral Presentation)",
+            pubnote: "(Oral Presentation, Award Candidate)",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/spurfies/"),"[Paper]".link("https://arxiv.org/pdf/2408.16544")].join(" "),
             abstract: "A method leveraging synthetic data to learn local surface priors for surface reconstruction from few images. Can be applied to both bounded and unbounded scenes.",
         },
