@@ -12,7 +12,7 @@ module.exports = {
             title: "Spatial Reasoning with Denoising Models",
             teaser: "figures/SRM.gif",
             authors: "Christopher Wewer, Bart Pogodzinski, Bernt Schiele, Jan Eric Lenssen",
-            conference: "arXiv preprint",
+            conference: "ICML 2025",
             data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/srm/"),"[Paper]".link("https://arxiv.org/abs/2502.21075")].join(" "),
             abstract: "A framework to propagate belief over a set of continuous variables (e.g. image patches) with generative denoising models. Explores the amount of sequentialization and generation order.",
         },
