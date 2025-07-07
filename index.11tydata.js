@@ -9,6 +9,22 @@
 module.exports = {
     publications: [
         {
+            title: "Solving Inverse Problems with FLAIR",
+            teaser: "figures/flair.jpeg",
+            authors: "Julius Erbach, Dominik Narnhofer, Andreas Dombos, Bernt Schiele, Jan Eric Lenssen, Konrad Schindler",
+            conference: "arXiv preprint",
+            data: ["[Project Page]".link("https://inverseflair.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2506.02680")].join(" "),
+            abstract: "A variational posterior sampling approach to solve inverse problems, such as super-resolution and in-painting, with rectified flow models as a prior.",
+        },
+        {
+            title: "MVGBench: a Comprehensive Benchmark for Multi-view Generation Models",
+            teaser: "figures/MVGBench-teaser.gif",
+            authors: "Xianghui Xie, Chuhang Zou, Meher Gitika Karumuri, Jan Eric Lenssen, Gerard Pons-Moll",
+            conference: "ICCV 2025",
+            data: ["[Project Page]".link("https://virtualhumans.mpi-inf.mpg.de/MVGBench/"),"[Paper]".link("https://arxiv.org/pdf/2507.00006")].join(" "),
+            abstract: "A benchmark to measure consistency and quality of multi-view generative models for objects. Investigates existing works and provides a state-of-the-art model combining best practices.",
+        },
+        {
             title: "Spatial Reasoning with Denoising Models",
             teaser: "figures/SRM.gif",
             authors: "Christopher Wewer, Bart Pogodzinski, Bernt Schiele, Jan Eric Lenssen",
