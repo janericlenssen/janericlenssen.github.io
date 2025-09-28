@@ -10,7 +10,7 @@ module.exports = {
     publications: [
         {
             title: "Solving Inverse Problems with FLAIR",
-            teaser: "figures/flair.gif",
+            teaser: "figures/flair2.gif",
             authors: "Julius Erbach, Dominik Narnhofer, Andreas Dombos, Bernt Schiele, Jan Eric Lenssen, Konrad Schindler",
             conference: "NeurIPS 2025",
             data: ["[Project Page]".link("https://inverseflair.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2506.02680")].join(" "),
