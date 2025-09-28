@@ -10,11 +10,27 @@ module.exports = {
     publications: [
         {
             title: "Solving Inverse Problems with FLAIR",
-            teaser: "figures/flair.jpeg",
+            teaser: "figures/flair.gif",
             authors: "Julius Erbach, Dominik Narnhofer, Andreas Dombos, Bernt Schiele, Jan Eric Lenssen, Konrad Schindler",
-            conference: "arXiv preprint",
+            conference: "NeurIPS 2025",
             data: ["[Project Page]".link("https://inverseflair.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2506.02680")].join(" "),
             abstract: "A variational posterior sampling approach to solve inverse problems, such as super-resolution and in-painting, with rectified flow models as a prior.",
+        },
+        {
+            title: "PyG 2.0: Scalable Learning on Real World Graphs",
+            teaser: "figures/pyg20.png",
+            authors: "Matthias Fey, Jinu Sunil, Akihiro Nitta, Rishi Puri, Manan Shah, Blaž Stojanovič, Ramona Bendias, Alexandria Barghi, Vid Kocijan, Zecheng Zhang, Xinwei He, Jan Eric Lenssen, Jure Leskovec",
+            conference: "Temporal Graph Learning Workshop @ KDD 2025",
+            data: ["[Project Page]".link("https://www.pyg.org/"),"[Paper]".link("https://arxiv.org/pdf/2507.16991")].join(" "),
+            abstract: "A report on the recent additions to the widely used Pytorch Geometric (PyG) framework, focussing on relational deep learning and retrieval augmented generation with graphs.",
+        },
+        {
+            title: "Spatial Reasoners for Continuous Variables in Any Domain",
+            teaser: "figures/spatialreasoners.png",
+            authors: "Bart Pogodzinski, Christopher Wewer, Bernt Schiele, Jan Eric Lenssen",
+            conference: "CodeML Workshop @ ICML 2025",
+            data: ["[Project Page]".link("https://spatialreasoners.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2507.10768")].join(" "),
+            abstract: "A software framework to bring spatial reasoning networks (SRMs) to other domains. Allows reasoning over sets of continuous variables",
         },
         {
             title: "MVGBench: a Comprehensive Benchmark for Multi-view Generation Models",
