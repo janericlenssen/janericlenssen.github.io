@@ -14,7 +14,7 @@ module.exports = {
             authors: "Julius Erbach, Dominik Narnhofer, Andreas Dombos, Bernt Schiele, Jan Eric Lenssen, Konrad Schindler",
             conference: "NeurIPS 2025",
             data: ["[Project Page]".link("https://inverseflair.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2506.02680")].join(" "),
-            abstract: "A variational posterior sampling approach to solve inverse problems, such as super-resolution and in-painting, with rectified flow models as a prior.",
+            abstract: "A variational posterior sampling approach to solve inverse problems, such as super-resolution and inpainting, with rectified flow models as a prior.",
         },
         {
             title: "PyG 2.0: Scalable Learning on Real World Graphs",
