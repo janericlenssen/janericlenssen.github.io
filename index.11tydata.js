@@ -19,7 +19,7 @@ module.exports = {
         {
             title: "RefAM: Attention Magnets for Zero-Shot Referral Segmentation",
             teaser: "figures/refam.png",
-            authors: "JAnna Kukleva, Enis Simsar, Alessio Tonioni, Muhammad Ferjad Naeem, Federico Tombari, Jan Eric Lenssen, Bernt Schiele",
+            authors: "Anna Kukleva, Enis Simsar, Alessio Tonioni, Muhammad Ferjad Naeem, Federico Tombari, Jan Eric Lenssen, Bernt Schiele",
             conference: "arXiv preprint 2025",
             data: ["[Project Page]".link("https://refam-diffusion.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2509.22650")].join(" "),
             abstract: "Introducing stop word attention magnets for DiTs, which improve zero-shot referral segmentation on images and videos.",
