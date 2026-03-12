@@ -18,7 +18,7 @@ module.exports = {
         },
         {
             title: "Rewis3d: Reconstruction for Weakly-Supervised Semantic Segmentation",
-            teaser: "figures/rewis3d.gif",
+            teaser: "figures/rewis3d.png",
             authors: "Jonas Ernst, Wolfgang Boettcher, Lukas Hoyer, Jan Eric Lenssen, Bernt Schiele",
             conference: "CVPR 2026",
             data: ["[Project Page]".link("https://rewis3d-mpi.github.io/Rewis3d/"),"[Paper]".link("https://arxiv.org/pdf/2603.06374")].join(" "),
