@@ -9,6 +9,30 @@
 module.exports = {
     publications: [
         {
+            title: "SceneTok: A Compressed, Diffusable Token Space for 3D Scenes",
+            teaser: "figures/scenetok.gif",
+            authors: "Mohammad Asim, Christopher Wewer, Jan Eric Lenssen",
+            conference: "CVPR 2026",
+            data: ["[Project Page]".link("https://geometric-rl.mpi-inf.mpg.de/scenetok/"),"[Paper]".link("https://arxiv.org/pdf/2602.18882")].join(" "),
+            abstract: "A a compressed token space for 3D scenes that can be efficiently rendered to novel views and used for efficient generation in latent space.",
+        },
+        {
+            title: "Rewis3d: Reconstruction for Weakly-Supervised Semantic Segmentation",
+            teaser: "figures/rewis3d.gif",
+            authors: "Jonas Ernst, Wolfgang Boettcher, Lukas Hoyer, Jan Eric Lenssen, Bernt Schiele",
+            conference: "CVPR 2026",
+            data: ["[Project Page]".link("https://rewis3d-mpi.github.io/Rewis3d/"),"[Paper]".link("https://arxiv.org/pdf/2603.06374")].join(" "),
+            abstract: "A method for weakly-supervised semantic segmentation that leverages 3D reconstruction during training to improve segmentation accuracy.",
+        },
+        {
+            title: "MoLingo: Motion-Language Alignment for Text-to-Motion Generation",
+            teaser: "figures/molingo.gif",
+            authors: "Yannan He, Garvita Tiwari, Xiaohan Zhang, Pankaj Bora, Tolga Birdal, Jan Eric Lenssen, Gerard Pons-Moll",
+            conference: "CVPR 2026",
+            data: ["[Project Page]".link("https://hynann.github.io/molingo/MoLingo.html"),"[Paper]".link("https://arxiv.org/pdf/2512.13840")].join(" "),
+            abstract: "A method for diffusion-based text-to-motion generation that aligns the latent space with language encodings for high-quality motion synthesis.",
+        },
+        {
             title: "AnyUp: Universal Feature Upsampling",
             teaser: "figures/anyup.gif",
             authors: "Thomas Wimmer, Prune Truong, Marie-Julie Rakotosaona, Michael Oechsle, Federico Tombari, Bernt Schiele, Jan Eric Lenssen",
