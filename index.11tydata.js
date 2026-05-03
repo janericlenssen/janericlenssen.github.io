@@ -9,6 +9,22 @@
 module.exports = {
     publications: [
         {
+            title: "ActionPlan: Future-Aware Streaming Motion Synthesis via Frame-Level Action Planning",
+            teaser: "figures/actionplan.gif",
+            authors: "Eric Nazarenus, Chuqiao Li, Yannan He, Xianghui Xie, Jan Eric Lenssen, Gerard Pons-Moll",
+            conference: "arXiv 2026",
+            data: ["[Project Page]".link("https://coral79.github.io/ActionPlan/"),"[Paper]".link("https://arxiv.org/pdf/2603.13500")].join(" "),
+            abstract: "A generative model for online and offline text-to-motion synthesis that leverages frame-level action planning before generating motion parts.",
+        },
+        {
+            title: "SemanticNVS: Improving Semantic Scene Understanding in Generative Novel View Synthesis",
+            teaser: "figures/semanticnvs.gif",
+            authors: "Xinya Chen, Christopher Wewer, Jiahao Xie, Xinting Hu, Jan Eric Lenssen",
+            conference: "ICML 2026",
+            data: ["[Project Page]".link("https://semanticnvs.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2602.20079")].join(" "),
+            abstract: "Extracting semantic features from given conditioning before generation improves the quality of generative novel view synthesis.",
+        },
+        {
             title: "SceneTok: A Compressed, Diffusable Token Space for 3D Scenes",
             teaser: "figures/scenetok.gif",
             authors: "Mohammad Asim, Christopher Wewer, Jan Eric Lenssen",
