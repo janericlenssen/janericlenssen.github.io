@@ -22,7 +22,7 @@ module.exports = {
             authors: "Nhi Pham, Christopher Wewer, Bernt Schiele, Jonas Fischer, Jan Eric Lenssen",
             conference: "NeuriPS 2026",
             data: ["[tbd]"],
-            abstract: "A generative model for online and offline text-to-motion synthesis that leverages frame-level action planning before generating motion parts.",
+            abstract: "A tokenization method for object-centric video representation that maintains object clustering across frames and improves video generation in latent space.",
         },
         {
             title: "Steering Fields: Adaptive Vector Fields for Safe Image Generation and Beyond",
