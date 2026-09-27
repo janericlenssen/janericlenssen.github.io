@@ -9,12 +9,44 @@
 module.exports = {
     publications: [
         {
+            title: "CSFlow: Aligning Flow Matching with Human Contrast Sensitivity",
+            teaser: "figures/csflow.png",
+            authors: "Malgorzata Galinska, Bart Pogodzinski, Jan Eric Lenssen",
+            conference: "NeuriPS 2026",
+            data: ["[Paper]".link("https://arxiv.org/abs/2606.08833")].join(" "),
+            abstract: "A method for aligning flow matching and diffusion weights with human contrast sensitivity to spend model capacity on important frequencies.",
+        },
+        {
+            title: "TrackTok: Object-Centric Video Tokenization with Semantically Persistent Tokens",
+            teaser: "figures/tracktok.png",
+            authors: "Nhi Pham, Christopher Wewer, Bernt Schiele, Jonas Fischer, Jan Eric Lenssen",
+            conference: "NeuriPS 2026",
+            data: ["[tbd]"],
+            abstract: "A generative model for online and offline text-to-motion synthesis that leverages frame-level action planning before generating motion parts.",
+        },
+        {
+            title: "Steering Fields: Adaptive Vector Fields for Safe Image Generation and Beyond",
+            teaser: "figures/steeringfields.png",
+            authors: "Simone Facchiano, Jan Eric Lenssen, Bernt Schiele, Wolfgang Stammer, Fabio Galasso, Jonas Fischer",
+            conference: "NeuriPS 2026",
+            data: ["[tbd]"],
+            abstract: "A method for steering diffusion models by combining vector fields, ensuring safe image generation and allowing image editing.",
+        },
+        {
             title: "ActionPlan: Future-Aware Streaming Motion Synthesis via Frame-Level Action Planning",
             teaser: "figures/actionplan.gif",
             authors: "Eric Nazarenus, Chuqiao Li, Yannan He, Xianghui Xie, Jan Eric Lenssen, Gerard Pons-Moll",
-            conference: "arXiv 2026",
+            conference: "ECCV 2026",
             data: ["[Project Page]".link("https://coral79.github.io/ActionPlan/"),"[Paper]".link("https://arxiv.org/pdf/2603.13500")].join(" "),
             abstract: "A generative model for online and offline text-to-motion synthesis that leverages frame-level action planning before generating motion parts.",
+        },
+        {
+            title: "Dynamic Inverse Rendering for Enhanced Material-Lighting Decomposition",
+            teaser: "figures/dynmat.png",
+            authors: "Raza Yunus, Benjamin Ummenhofer, Jan Eric Lenssen, Eddy Ilg",
+            conference: "ECCV 2026",
+            data: ["[Project Page]".link("https://razayunus.github.io/DIR"),"[Paper]".link("https://arxiv.org/abs/2607.09329")].join(" "),
+            abstract: "A method for dynamic inverse rendering that improves material-lighting decomposition in a handheld object scenario.",
         },
         {
             title: "SemanticNVS: Improving Semantic Scene Understanding in Generative Novel View Synthesis",
@@ -47,6 +79,14 @@ module.exports = {
             conference: "CVPR 2026",
             data: ["[Project Page]".link("https://hynann.github.io/molingo/MoLingo.html"),"[Paper]".link("https://arxiv.org/pdf/2512.13840")].join(" "),
             abstract: "A method for diffusion-based text-to-motion generation that aligns the latent space with language encodings for high-quality motion synthesis.",
+        },
+        {
+            title: "MoonSeg3R: Monocular Online Zero-Shot Segment Anything in 3D with Reconstructive Foundation Priors",
+            teaser: "figures/moonseg3r.png",
+            authors: "Zhipeng Du, Duolikun Danier, Jan Eric Lenssen, Hakan Bilen",
+            conference: "CVPR 2026 Findings",
+            data: ["[Project Page]".link("https://github.com/VICO-UoE/MoonSeg3R"),"[Paper]".link("https://openaccess.thecvf.com/content/CVPR2026F/papers/Du_MoonSeg3R_Monocular_Online_Zero-Shot_Segment_Anything_in_3D_with_Reconstructive_CVPRF_2026_paper.pdf")].join(" "),
+            abstract: "A method for monocular online zero-shot segmentation in 3D that leverages reconstructive foundation priors to improve segmentation accuracy.",
         },
         {
             title: "AnyUp: Universal Feature Upsampling",
