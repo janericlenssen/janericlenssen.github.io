@@ -9,6 +9,14 @@
 module.exports = {
     publications: [
         {
+            title: "Learning to Generate in the Right Order",
+            teaser: "figures/ponder.png",
+            authors: "Julius Erbach, Dominik Narnhofer, Bernt Schiele, Jan Eric Lenssen, Konrad Schindler",
+            conference: "preprint",
+            data: ["[Paper]".link("https://arxiv.org/pdf/2610.23531")].join(" "),
+            abstract: "Using reinforcement learning to predict optimal generation order in multi-variable flow models. Also proposes a reward that optimizes FID.",
+        },
+        {
             title: "CSFlow: Aligning Flow Matching with Human Contrast Sensitivity",
             teaser: "figures/csflow.png",
             authors: "Malgorzata Galinska, Bart Pogodzinski, Jan Eric Lenssen",
@@ -21,7 +29,7 @@ module.exports = {
             teaser: "figures/tracktok.png",
             authors: "Nhi Pham, Christopher Wewer, Bernt Schiele, Jonas Fischer, Jan Eric Lenssen",
             conference: "NeuriPS 2026",
-            data: ["[tbd]"],
+            data: ["[Project Page]".link("https://github.com/phamleyennhi/tracktok"),"[Paper]".link("https://arxiv.org/pdf/2610.33857")].join(" "),
             abstract: "A tokenization method for object-centric video representation that maintains object clustering across frames and improves video generation in latent space.",
         },
         {
@@ -29,7 +37,7 @@ module.exports = {
             teaser: "figures/steeringfields.png",
             authors: "Simone Facchiano, Jan Eric Lenssen, Bernt Schiele, Wolfgang Stammer, Fabio Galasso, Jonas Fischer",
             conference: "NeuriPS 2026",
-            data: ["[tbd]"],
+            data: ["[Project Page]".link("https://simonefacchiano.github.io/steeringfields-projectpage/"),"[Paper]".link("https://arxiv.org/pdf/2609.39573")].join(" "),
             abstract: "A method for steering diffusion models by combining vector fields, ensuring safe image generation and allowing image editing.",
         },
         {
@@ -101,7 +109,7 @@ module.exports = {
             title: "RefAM: Attention Magnets for Zero-Shot Referral Segmentation",
             teaser: "figures/refam.png",
             authors: "Anna Kukleva, Enis Simsar, Alessio Tonioni, Muhammad Ferjad Naeem, Federico Tombari, Jan Eric Lenssen, Bernt Schiele",
-            conference: "arXiv preprint 2025",
+            conference: "TMLR 2026",
             data: ["[Project Page]".link("https://refam-diffusion.github.io/"),"[Paper]".link("https://arxiv.org/pdf/2509.22650")].join(" "),
             abstract: "Introducing stop word attention magnets for DiTs, which improve zero-shot referral segmentation on images and videos.",
         },
